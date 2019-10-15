@@ -1,7 +1,7 @@
 /* Color palette */
 @import '_palette.css';
 /* Fonts import */
-@import url('https://fonts.googleapis.com/css?family=Montserrat Alternate|Roboto|Source+Sans+Pro&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat Alternates|Roboto|Source+Sans+Pro&display=swap&subset=cyrillic');
 
 body {
     padding: 0;
@@ -9,6 +9,8 @@ body {
 }
 
 .card {
+    margin-right: 30px;
+    margin-bottom: 30px;
     height: 300px;
     width: 550px;
     display: flex;
@@ -46,7 +48,8 @@ body {
     width: 250px !important;
     color: #fff;
     font-size: 36px;
-    font-family: 'Montserrat Alternate', sans-serif;
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .card-actions {
@@ -78,4 +81,22 @@ body {
 
 .card-button:focus {
     outline: none;
+}
+
+.title {
+    color: #000;
+    font-size: 36px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.content {
+    margin: 60px;
+}
+
+.layout {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
 }
