@@ -27,6 +27,7 @@
 .menu-link {
     margin-right: 30px;
     color: rgba(0, 0, 0, 0.5);
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     transition: color ease-in-out 0.3s;
