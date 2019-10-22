@@ -40,3 +40,7 @@
 .menu-link:visited {
     color: rgba(0, 0, 0, 0.5);
 }
+
+.menu-link:focus {
+    outline: none;
+}

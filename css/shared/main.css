@@ -9,6 +9,7 @@ body {
 }
 
 .card {
+    position: relative;
     margin-right: 30px;
     margin-bottom: 30px;
     height: 300px;
@@ -19,8 +20,6 @@ body {
     align-items: flex-start;
     box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.35);
     border-radius: 20px;
-    background-image: url(https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
-    background-size: cover;
 }
 
 .card > div {
@@ -99,4 +98,20 @@ body {
     margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.card-background {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    filter: brightness(0.6);
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: var(--neutral-darker);
+    font-size: 18px;
 }
