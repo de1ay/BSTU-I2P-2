@@ -1,12 +1,12 @@
 <template>
     <div>
-        dhdfg
+        asdsaddas
     </div>
 </template>
 
 <script>
 export default {
-    name: 'About',
+    name: 'Index',
 }
 </script>
 

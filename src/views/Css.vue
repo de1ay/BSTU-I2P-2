@@ -1,12 +1,12 @@
 <template>
     <div>
-        dhdfg
+        jhgkkjhl
     </div>
 </template>
 
 <script>
 export default {
-    name: 'About',
+    name: 'CSS',
 }
 </script>
 
