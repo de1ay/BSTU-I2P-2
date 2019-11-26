@@ -24,12 +24,12 @@ export default {
         return {
             paths: routes.filter(
                 item => {
-                    return item.meta.visible ? true : false;
+                    return item.meta.visible;
                 }
             ),
         };
     },
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -1,7 +1,6 @@
 <template>
     <div>
-        <blog-header>
-        </blog-header>
+        <blog-header />
         <div class="content">
             <router-view/>
         </div>

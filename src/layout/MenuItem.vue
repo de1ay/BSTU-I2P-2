@@ -3,6 +3,7 @@
     active-class="menu-item--active"
     :to="to">
       {{ displayName }}
+      <slot/>
   </router-link>
 </template>
 
@@ -22,11 +23,11 @@ export default {
     computed: {
         to: function() {
             return {
-                name: this.name,
+                name: this.$props.name,
             };
         },
         displayName: function() {
-            return this.text ? this.text : this.name;
+            return this.$props.text ? this.$props.text : this.$props.name;
         },
     },
 }
